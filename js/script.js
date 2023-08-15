@@ -27,7 +27,7 @@ let makeElements = () => {
 
     noteInput.value = ''
     card.addEventListener('click', (e) => {
-        e.target.parentElement.remove()
+        e.target.remove()
         // console.log(e.target)
     })
 }
